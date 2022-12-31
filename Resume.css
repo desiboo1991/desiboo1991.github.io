@@ -1,0 +1,266 @@
+a:link{
+    color: teal;
+    text-decoration: none;
+  }
+  a:visited{
+    color: #0174DF;
+    text-decoration: none;
+  }
+  a:hover{
+    color: orangered;
+    text-decoration: none;
+  }
+  a:active{
+    color: #0174DF;
+    text-decoration: none;
+  }
+  
+  body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+  }
+  
+  .container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  /* GRID LAYOUT BEGIN */
+  /* Takes the form of: START/END */
+  .profile {    
+    /* background-color: cornflowerblue; */
+    /* background-color: mediumaquamarine; */
+    background-color: teal;
+    /* border-color: white; */
+    color: white;
+    font-family: sans-serif;
+    grid-column: 1;
+    grid-row: 1/10;
+    column-gap: 10px;
+    margin-right: 5%;
+    padding-top: 50px;
+    text-align: center;
+  }
+  .two {
+    background-color: #1E2021;/*Dark reader color*/
+    color: teal;
+    font-family: sans-serif;
+    grid-column: 2 / 4;
+    grid-column-gap: 10px;
+    grid-row: 1 / 3;
+    column-gap: 10px;
+    margin-right: 5%;
+    /* padding-top: 50px; */
+    text-align: left;    
+  }
+  
+  .two-p{
+      color: rgb(186, 189, 188); /*Dark Reader Color*/
+      /*color: black;*/
+      font-family: 'Gill Sans Light', 'Gill Sans MT', 'Gill Sans', 'Trebuchet MS', 'Calibri', "sans-serif";
+      font-size: 130%;
+  }
+  
+  .two-ul{
+    font-size:130%;
+  }
+  
+  .three {
+    /* grid-column: 2; */
+    /* grid-row: 3 / 5; */
+    display: grid;
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* margin: 20px, 0; */
+    grid-template-columns: auto auto;
+  }
+  
+  .four h5{
+    /* color:cornflowerblue; */
+    /* color: teal; */
+    color: #628181;
+    font-family: verdana, trebuchet, tahoma, sans-serif, helvetica;
+    text-transform: uppercase;
+    font-size: 20px;
+    min-width: 100px;
+    max-width: 200px;    
+    margin: 15px;
+  }
+  
+  .four-left{
+    text-align: left;
+    min-width: 100px;
+    /* max-width: 500px; */
+  }
+  
+  .four-left h5{
+    font-family: verdana, trebuchet, tahoma, sans-serif;
+    font-size: 20px;
+  }
+  
+  .four-left p {
+    /*color: black;*/
+    color: rgb(186, 189, 188); /*Dark Reader Color*/
+    font-family: 'Gill Sans Light', 'Gill Sans MT', 'Gill Sans', 'Trebuchet MS', 'Calibri', "sans-serif";
+    font-size: 20px;
+  }
+  
+  .four-right{
+    text-align: left;
+  }
+  
+  .five {
+    /* grid-column: 3; */
+  }
+  
+  .five h5{
+    /* color:cornflowerblue; */
+    /* color: teal; */
+    color: #628181;
+    font-family: verdana, trebuchet, tahoma, sans-serif, helvetica;
+    text-transform: uppercase;
+    font-size: 20px;
+    min-width: 100px;
+    max-width: 200px;    
+    margin: 15px;
+  }
+  
+  .five-right{
+    text-align: left;
+    grid-row-start: span 2;
+    
+  }
+  
+  .five-right h5{
+    color: teal;
+    font-family: verdana, trebuchet, tahoma, sans-serif;
+    font-size: 20px;
+  }
+  
+  .five-left h5{
+    color: #628181;
+    font-family: verdana, trebuchet, tahoma, sans-serif, helvetica;
+    text-transform: uppercase;
+    font-size: 20px;
+    min-width: 100px;
+    max-width: 150px;    
+    margin: 10px;       
+  }
+  
+  .five-right p {
+    color: rgb(186, 189, 188); /*Dark Reader Color*/
+    font-family: 'Gill Sans Light', verdana, trebuchet, tahoma, sans-serif, helvetica;
+    font-size: 20px;
+    grid-row-start: span 2;
+  }
+  
+  .six {
+    grid-column: 3;
+    grid-row: 4;
+  }
+  /* GRID LAYOUT END */
+  
+  .hr-profile{
+    color: white;
+    width: 200px;    
+  }
+  
+  .hr-rightSide{
+    color: teal;
+    width: 100%;    
+  }
+  
+  .html{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+  }
+  
+  .job-title{
+    /* color: cornflowerblue; */
+    /* color: springgreen; */
+    color: powderblue;
+  }
+  
+    .profile-pic{
+        border-radius: 50%;
+        border: 10px solid white;
+        border: 10px solid #f6f9fa;
+    }
+  
+    .profile-text-header{
+        display: flex;
+        /* padding-left: 10%; */
+        align-items: center;
+        padding-left: 4ex;
+        padding-top: 1ex;
+        text-align: left;
+        color: powderblue;
+        gap: 1ex;
+    }
+  
+    .profile-text-header img{
+      width: 1.5em;
+      height: 1.5em;
+    }
+  
+  /* Add a black background color to the top navigation */
+  /*"navbar-inverse" from Fiddlisk.com's css*/
+  .topnav {    
+    overflow: hidden;
+    /* overflow: scroll; */
+    background-color: #222;
+    border-color: #080808;
+    font-family: sans-serif;
+    /* margin:0px; */
+  }
+  .topnav-brand {
+    font-size: 20;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "sans-serif";      
+  }
+  
+  /* Centered section inside the top navigation */
+  .topnav-centered a {
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    /* color: #f2f2f2; */
+    color: #9d9d9d;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #222;
+    color: #fff;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  .wrapper {
+    background-color: #1e2021;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* gap: 10px; */
+    grid-auto-rows: minmax(100px, auto);
+  }
+  
+  
